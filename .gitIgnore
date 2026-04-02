@@ -1,0 +1,11 @@
+# 1. Ignore absolutely everything in the repository
+*
+
+# 2. Un-ignore all directories (so Git can traverse them to find your files)
+!*/
+
+# 3. Un-ignore all C source files
+!*.c
+
+# 4. Un-ignore the .gitignore file itself (so you can commit it to the repo)
+!.gitignore
